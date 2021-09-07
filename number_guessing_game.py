@@ -36,7 +36,6 @@ You need to guess what is the chosen number between 1 to 100. Good luck!
     
     # The loop below will keep running until the player make a right guess or loses all the lives
     while guessing:
-        print(f"The chosen number is {chosen_number}")
         player_guess = int(input("Guess a number: "))
         
         if player_guess == chosen_number:
